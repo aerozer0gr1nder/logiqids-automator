@@ -1,3 +1,6 @@
+<img width="1367" height="1150" alt="main" src="https://github.com/user-attachments/assets/c455d6aa-0142-4a64-9c09-b195b6b065a9" />
+
+
 # 🧠 LogIQids ThinkSheet Assistant
 
 A helper for LogIQids reasoning ThinkSheets. You stay in control: start, pause, resume, or stop it from the extension popup.
