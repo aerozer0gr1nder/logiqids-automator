@@ -44,3 +44,7 @@ You can change the model and request settings in Settings. Your API key stays in
 The project includes the extension popup, Settings page, NVIDIA NIM connection, ThinkSheet page helper, and the LogIQids logo.
 
 💡 Keep an eye on the page while it works, and check answers before submitting them.
+
+
+# logiqids-automator
+A repository consisting a browser extension to solve all ThinkSheets on the computation thinking platform, LogIQids, which has eaten their users heads after CBSE partnered with it and schools made it compulsory
