@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "LogIQids Automation Assistant",
+  "version": "1.0",
+  "description": "User-controlled LogIQids ThinkSheet helper with NVIDIA vision assistance.",
+  "permissions": ["storage", "activeTab", "tabs", "scripting"],
+  "host_permissions": ["https://logiqids.com/*", "https://www.logiqids.com/*", "https://integrate.api.nvidia.com/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "LogIQids Assistant", "default_popup": "popup.html" },
+  "options_page": "options.html",
+  "content_scripts": [{ "matches": ["https://logiqids.com/*", "https://www.logiqids.com/*"], "js": ["content/content.js"], "run_at": "document_idle" }]
+}
